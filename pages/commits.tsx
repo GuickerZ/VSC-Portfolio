@@ -139,7 +139,7 @@ export default function Commits({ sourceCodeCommits }: CommitsProps) {
 
 export async function getStaticProps() {
   const commits = await axios.get(
-    "https://api.github.com/repos/GuickerZ/GuickerZ/commits",
+    "https://api.github.com/repos/GuickerZ/VSC-Portfolio/commits",
   );
 
   return {
