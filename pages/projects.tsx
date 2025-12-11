@@ -65,9 +65,9 @@ export default function Projects() {
 
   const repoUrls = [
     "https://github.com/GuickerZ/RifaTurma",
-    "https://github.com/GuickerZ/portfolio",
-    "https://github.com/GuickerZ/sistema-poo-eda",
     "https://github.com/GuickerZ/GuiaIFPE",
+    "https://github.com/GuickerZ/VSC-Portfolio",
+    "https://github.com/GuickerZ/sistema-poo-eda",
   ];
 
   const manualProjects: Project[] = [];
