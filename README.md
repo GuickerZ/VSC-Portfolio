@@ -2,7 +2,7 @@
 
 Um portfólio interativo inspirado no Visual Studio Code, construído com Next.js, TypeScript e Tailwind CSS.
 
-![Portfolio Preview](https://github.com/GuickerZ.png)
+![Portfolio Preview](/image.png)
 
 ## ✨ Funcionalidades
 
