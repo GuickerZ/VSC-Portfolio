@@ -7,28 +7,33 @@ Um portfólio interativo inspirado no Visual Studio Code, construído com Next.j
 ## ✨ Funcionalidades
 
 ### 🎨 Interface VSCode
+
 - **Janela arrastável e redimensionável** - Simula uma janela real do VSCode
 - **Sidebar navegável** - Acesso rápido às páginas do portfólio
 - **Barra de pesquisa (Command Palette)** - Pressione `Ctrl+K` para abrir
 - **Footer interativo** - Controles de música e atalhos
 
 ### 🎯 Command Palette (Ctrl+K)
+
 - Navegação rápida entre páginas
 - Troca de temas
 - Controle de música
 - Busca por comandos
 
 ### 🎵 Player de Música
+
 - Música ambiente ao navegar
 - Controle de mute/unmute no footer
 - Integração com o Command Palette
 
 ### 🎭 Temas
+
 - **Default (Dark)** - Tema escuro padrão
 - **Dracula** - Tema roxo popular
 - **Purple** - Variação roxa personalizada
 
 ### 📱 Responsivo
+
 - Layout adaptável para desktop e mobile
 - Janela se ajusta ao tamanho da tela
 - Componentes responsivos
@@ -89,24 +94,27 @@ npm start
 
 ## ⌨️ Atalhos
 
-| Atalho | Ação |
-|--------|------|
-| `Ctrl+K` | Abrir Command Palette |
-| `↑` `↓` | Navegar nos comandos |
-| `Enter` | Executar comando |
-| `ESC` | Fechar Command Palette |
+| Atalho   | Ação                   |
+| -------- | ---------------------- |
+| `Ctrl+K` | Abrir Command Palette  |
+| `↑` `↓`  | Navegar nos comandos   |
+| `Enter`  | Executar comando       |
+| `ESC`    | Fechar Command Palette |
 
 ## 🎨 Personalização
 
 ### Adicionar novo tema
+
 Edite `contexts/ThemeContext.tsx` e adicione seu tema ao objeto `themes`.
 
 ### Adicionar nova página
+
 1. Crie o arquivo em `pages/`
 2. Adicione a rota no `WindowSidebar.tsx`
 3. Adicione o comando no `CommandPalette.tsx`
 
 ### Alterar música
+
 Substitua o arquivo de áudio em `public/` e atualize o `AudioContext.tsx`.
 
 ## 📝 Créditos
@@ -119,4 +127,4 @@ MIT License - Sinta-se livre para usar e modificar.
 
 ---
 
-Desenvolvido por **Guilherme Matias** 
+Desenvolvido por **Guilherme Matias**

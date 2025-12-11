@@ -2,28 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  /* fallback para navegadores que não setaram --vh ainda */
+  --vh: 1vh;
+}
+
 html,
 body {
-  overflow: hidden;
   height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 body {
-  background-image: url(../public/background-macos.png);
+  background-image: url(/background-macos.png);
   background-size: cover;
   background-position: center;
 }
 
 #__next {
-  overflow: hidden;
-  height: 100vh;
+  /* usa --vh para evitar bugs de barra mobile */
+  height: calc(var(--vh, 1vh) * 100);
   width: 100vw;
+  overflow: hidden;
 }
 
+/* container que engloba a área onde as janelas aparecem */
+#screen {
+  position: relative; /* IMPORTANTÍSSIMO para posicionamento absoluto das janelas */
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* título arrastável */
 .titlebar {
   user-select: none;
   cursor: move;
+  -webkit-user-drag: none;
+}
+
+/* reset box sizing para garantir medidas consistentes */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }

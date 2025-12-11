@@ -33,7 +33,9 @@ export function AudioProvider({ children }: AudioProviderProps) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [isMuted, setIsMuted] = useState(true);
   const [volume, setVolumeState] = useState(0.3);
-  const [currentTrack, setCurrentTrack] = useState("/music/Crazy Story x Aria Math.mp3");
+  const [currentTrack, setCurrentTrack] = useState(
+    "/music/Crazy Story x Aria Math.mp3",
+  );
   const [trackName, setTrackName] = useState("Crazy Story x Aria Math.mp3");
 
   useEffect(() => {
