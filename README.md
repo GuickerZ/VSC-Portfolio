@@ -74,7 +74,7 @@ Um portfólio interativo inspirado no Visual Studio Code, construído com Next.j
 
 ```bash
 # Clone o repositório
-git clone https://github.com/GuickerZ/portfolio.git
+git clone https://github.com/GuickerZ/VSC-Portfolio.git
 
 # Instale as dependências
 npm install

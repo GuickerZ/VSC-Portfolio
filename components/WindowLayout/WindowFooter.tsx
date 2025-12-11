@@ -23,7 +23,7 @@ export default function WindowFooter() {
     >
       <div className="flex items-center">
         <Link
-          href="https://github.com/GuickerZ/GuickerZ"
+          href="https://github.com/GuickerZ/VSC-Portfolio"
           className="outline-none"
         >
           <div
