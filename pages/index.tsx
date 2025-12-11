@@ -1008,7 +1008,7 @@ const SOCIAL_LINKS = [
   {
     id: "linkedin",
     icon: FaLinkedin,
-    url: "https://linkedin.com/in/guickerzz",
+    url: "https://linkedin.com/in/guicker",
     color: "#0A66C2",
   },
   { id: "discord", icon: FaDiscord, url: "/discord", color: "#5865F2" },
