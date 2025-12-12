@@ -3,6 +3,7 @@ import "../styles/globals.css";
 import { Inter } from "next/font/google";
 import type { AppProps } from "next/app";
 import { useEffect } from "react";
+import { Analytics } from "@vercel/analytics/next";
 
 import { MotionWindowProvider } from "@contexts/MotionWindowContext";
 import { ThemeProvider } from "@contexts/ThemeContext";
@@ -46,6 +47,7 @@ export default function App({ Component, pageProps }: AppProps) {
           </CommandPaletteProvider>
         </AudioProvider>
       </ThemeProvider>
+      <Analytics />
     </div>
   );
 }
