@@ -41,21 +41,21 @@ const ThemeContext = createContext({} as ThemeContextData);
 const themes = {
   default: {
     bg: {
-      primary: "#171717",
-      secondary: "#262626",
-      tertiary: "#404040",
-      hover: "#525252",
+      primary: "#0f172a",
+      secondary: "#1e293b",
+      tertiary: "#334155",
+      hover: "#475569",
     },
     text: {
-      primary: "#fafafa",
-      secondary: "#d4d4d4",
-      tertiary: "#a3a3a3",
-      accent: "#10b981",
+      primary: "#f4f4f5",
+      secondary: "#d4d4d8",
+      tertiary: "#a1a1aa",
+      accent: "#8b5cf6",
     },
-    border: "#525252",
+    border: "#334155",
     accent: {
-      primary: "#d946ef",
-      secondary: "#c026d3",
+      primary: "#5b21b6",
+      secondary: "#7c3aed",
     },
   },
   dracula: {
@@ -79,21 +79,21 @@ const themes = {
   },
   purple: {
     bg: {
-      primary: "#0f172a",
-      secondary: "#1e293b",
-      tertiary: "#334155",
-      hover: "#475569",
+      primary: "#171717",
+      secondary: "#262626",
+      tertiary: "#404040",
+      hover: "#525252",
     },
     text: {
-      primary: "#f4f4f5",
-      secondary: "#d4d4d8",
-      tertiary: "#a1a1aa",
-      accent: "#8b5cf6",
+      primary: "#fafafa",
+      secondary: "#d4d4d4",
+      tertiary: "#a3a3a3",
+      accent: "#10b981",
     },
-    border: "#334155",
+    border: "#525252",
     accent: {
-      primary: "#5b21b6",
-      secondary: "#7c3aed",
+      primary: "#d946ef",
+      secondary: "#c026d3",
     },
   },
 };
