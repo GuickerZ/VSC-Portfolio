@@ -63,7 +63,8 @@ export default function Projects() {
     project: null as Project | null,
   });
 
-  const repoUrls = [
+    const repoUrls = [
+    "https://github.com/GuickerZ/guindex",
     "https://github.com/GuickerZ/RifaTurma",
     "https://github.com/GuickerZ/GuiaIFPE",
     "https://github.com/GuickerZ/VSC-Portfolio",
