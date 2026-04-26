@@ -4,7 +4,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import WindowPage from "@components/WindowLayout/WindowPage";
 import { useTheme } from "@contexts/ThemeContext";
-import { HiLocationMarker, HiCode, HiAcademicCap } from "react-icons/hi";
+import { HiLocationMarker, HiCode } from "react-icons/hi";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 20 },

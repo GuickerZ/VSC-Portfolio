@@ -30,7 +30,6 @@ import {
   SiR,
   SiNodedotjs,
   SiReact,
-  SiNextdotjs,
   SiVuedotjs,
   SiAngular,
   SiSvelte,

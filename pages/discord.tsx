@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { NextPage } from "next";
 import Head from "next/head";
 import React, { useEffect, useState } from "react";
@@ -160,7 +161,7 @@ const Home: NextPage = () => {
                 {getDecoration(user) && (
                   <div className="pointer-events-none absolute left-1/2 top-1/2 z-10 h-[122%] w-[122%] -translate-x-1/2 -translate-y-1/2">
                     <img
-                      src={getDecoration(user)!}
+                      src={getDecoration(user) || ""}
                       alt="decoration"
                       className="h-full w-full object-contain"
                     />
